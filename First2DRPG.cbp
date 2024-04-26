@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="First2DRPG" />
+		<Option pch_mode="2" />
+		<Option compiler="gcc" />
+		<Build>
+			<Target title="Debug">
+				<Option output="bin/Debug/First2DRPG" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Debug/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-g" />
+				</Compiler>
+			</Target>
+			<Target title="Release">
+				<Option output="bin/Release/First2DRPG" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Release/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-O2" />
+				</Compiler>
+				<Linker>
+					<Add option="-s" />
+				</Linker>
+			</Target>
+		</Build>
+		<Compiler>
+			<Add option="-Wall" />
+			<Add directory="C:/Jeux/Projets/SDL2/include/SDL2" />
+		</Compiler>
+		<Linker>
+			<Add option="-lmingw32 -lSDL2main -lSDL2 -lSDL2_image -lSDL2_ttf" />
+			<Add option="-lSDL2_mixer" />
+			<Add directory="C:/Jeux/Projets/SDL2/lib" />
+		</Linker>
+		<Unit filename="Action.h" />
+		<Unit filename="Background.cpp" />
+		<Unit filename="Background.h" />
+		<Unit filename="Camera.cpp" />
+		<Unit filename="Camera.h" />
+		<Unit filename="Inventaire.cpp" />
+		<Unit filename="Inventaire.h" />
+		<Unit filename="Joueur.cpp" />
+		<Unit filename="Joueur.h" />
+		<Unit filename="Magie.cpp" />
+		<Unit filename="Magie.h" />
+		<Unit filename="Menu.cpp" />
+		<Unit filename="Menu.h" />
+		<Unit filename="Niveau.cpp" />
+		<Unit filename="Niveau.h" />
+		<Unit filename="Objet.cpp" />
+		<Unit filename="Objet.h" />
+		<Unit filename="PNJ.cpp" />
+		<Unit filename="PNJ.h" />
+		<Unit filename="Personnage.cpp" />
+		<Unit filename="Personnage.h" />
+		<Unit filename="Profile.cpp" />
+		<Unit filename="Profile.h" />
+		<Unit filename="Projectile.cpp" />
+		<Unit filename="Projectile.h" />
+		<Unit filename="Technique.h" />
+		<Unit filename="Texture.cpp" />
+		<Unit filename="Texture.h" />
+		<Unit filename="Timer.cpp" />
+		<Unit filename="Timer.h" />
+		<Unit filename="Window.cpp" />
+		<Unit filename="Window.h" />
+		<Unit filename="chainList.cpp" />
+		<Unit filename="chainList.h" />
+		<Unit filename="graphisme.cpp" />
+		<Unit filename="graphisme.h" />
+		<Unit filename="jeu.cpp" />
+		<Unit filename="jeu.h" />
+		<Unit filename="main.cpp" />
+		<Extensions>
+			<lib_finder disable_auto="1" />
+		</Extensions>
+	</Project>
+</CodeBlocks_project_file>

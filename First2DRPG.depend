@@ -1,0 +1,661 @@
+# depslib dependency file v1.0
+1711962662 source:c:\jeux\projets\first2drpg\main.cpp
+	<iostream>
+	<SDL.h>
+	<SDL_image.h>
+	<stdio.h>
+	<string>
+	<SDL_ttf.h>
+	<SDL_mixer.h>
+	<cmath>
+	<math.h>
+	<array>
+	"Camera.h"
+	"graphisme.h"
+	"Joueur.h"
+	"Profile.h"
+	"jeu.h"
+	"Texture.h"
+	"Timer.h"
+	"Background.h"
+	"PNJ.h"
+	"Menu.h"
+	"Projectile.h"
+	"Magie.h"
+	"Niveau.h"
+
+1686711960 c:\jeux\projets\sdl2\include\sdl2\sdl.h
+	"SDL_main.h"
+	"SDL_stdinc.h"
+	"SDL_assert.h"
+	"SDL_atomic.h"
+	"SDL_audio.h"
+	"SDL_clipboard.h"
+	"SDL_cpuinfo.h"
+	"SDL_endian.h"
+	"SDL_error.h"
+	"SDL_events.h"
+	"SDL_filesystem.h"
+	"SDL_gamecontroller.h"
+	"SDL_guid.h"
+	"SDL_haptic.h"
+	"SDL_hidapi.h"
+	"SDL_hints.h"
+	"SDL_joystick.h"
+	"SDL_loadso.h"
+	"SDL_log.h"
+	"SDL_messagebox.h"
+	"SDL_metal.h"
+	"SDL_mutex.h"
+	"SDL_power.h"
+	"SDL_render.h"
+	"SDL_rwops.h"
+	"SDL_sensor.h"
+	"SDL_shape.h"
+	"SDL_system.h"
+	"SDL_thread.h"
+	"SDL_timer.h"
+	"SDL_version.h"
+	"SDL_video.h"
+	"SDL_locale.h"
+	"SDL_misc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1686711960 c:\jeux\projets\sdl2\include\sdl2\sdl_main.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1686711960 c:\jeux\projets\sdl2\include\sdl2\sdl_stdinc.h
+	"SDL_config.h"
+	<sys/types.h>
+	<stdio.h>
+	<stdlib.h>
+	<stddef.h>
+	<stdarg.h>
+	<stdlib.h>
+	<malloc.h>
+	<stddef.h>
+	<stdarg.h>
+	<memory.h>
+	<string.h>
+	<strings.h>
+	<wchar.h>
+	<inttypes.h>
+	<stdint.h>
+	<ctype.h>
+	<math.h>
+	<float.h>
+	<alloca.h>
+	<malloc.h>
+	<malloc.h>
+	<malloc.h>
+	<stdlib.h>
+	<sal.h>
+	"begin_code.h"
+	<stdlib.h>
+	<string.h>
+	<stdio.h>
+	"close_code.h"
+
+1686711960 c:\jeux\projets\sdl2\include\sdl2\sdl_config.h
+	"SDL_platform.h"
+	<winsdkver.h>
+	<sdkddkver.h>
+
+1686711960 c:\jeux\projets\sdl2\include\sdl2\sdl_platform.h
+	<AvailabilityMacros.h>
+	<TargetConditionals.h>
+	<winapifamily.h>
+	"begin_code.h"
+	"close_code.h"
+
+1686711960 c:\jeux\projets\sdl2\include\sdl2\begin_code.h
+
+1686711960 c:\jeux\projets\sdl2\include\sdl2\close_code.h
+
+1686711960 c:\jeux\projets\sdl2\include\sdl2\sdl_assert.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	<signal.h>
+	"close_code.h"
+
+1686711960 c:\jeux\projets\sdl2\include\sdl2\sdl_atomic.h
+	"SDL_stdinc.h"
+	"SDL_platform.h"
+	"begin_code.h"
+	<sys/cpuinline.h>
+	<mbarrier.h>
+	"close_code.h"
+
+1686711960 c:\jeux\projets\sdl2\include\sdl2\sdl_audio.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_endian.h"
+	"SDL_mutex.h"
+	"SDL_thread.h"
+	"SDL_rwops.h"
+	"begin_code.h"
+	"close_code.h"
+
+1686711960 c:\jeux\projets\sdl2\include\sdl2\sdl_error.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1686711960 c:\jeux\projets\sdl2\include\sdl2\sdl_endian.h
+	"SDL_stdinc.h"
+	<intrin.h>
+	<endian.h>
+	<endian.h>
+	<sys/endian.h>
+	"begin_code.h"
+	"close_code.h"
+
+1686711960 c:\jeux\projets\sdl2\include\sdl2\sdl_mutex.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1686711960 c:\jeux\projets\sdl2\include\sdl2\sdl_thread.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_atomic.h"
+	"SDL_mutex.h"
+	<process.h>
+	<process.h>
+	<stdlib.h>
+	"begin_code.h"
+	"close_code.h"
+
+1686711960 c:\jeux\projets\sdl2\include\sdl2\sdl_rwops.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1686711960 c:\jeux\projets\sdl2\include\sdl2\sdl_clipboard.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1686711960 c:\jeux\projets\sdl2\include\sdl2\sdl_cpuinfo.h
+	"SDL_stdinc.h"
+	<intrin.h>
+	<intrin.h>
+	<arm_neon.h>
+	<altivec.h>
+	<arm_neon.h>
+	<armintr.h>
+	<arm_neon.h>
+	<arm64intr.h>
+	<arm64_neon.h>
+	<mm3dnow.h>
+	<lsxintrin.h>
+	<lasxintrin.h>
+	<immintrin.h>
+	<mmintrin.h>
+	<xmmintrin.h>
+	<emmintrin.h>
+	<pmmintrin.h>
+	"begin_code.h"
+	"close_code.h"
+
+1686711960 c:\jeux\projets\sdl2\include\sdl2\sdl_events.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_video.h"
+	"SDL_keyboard.h"
+	"SDL_mouse.h"
+	"SDL_joystick.h"
+	"SDL_gamecontroller.h"
+	"SDL_quit.h"
+	"SDL_gesture.h"
+	"SDL_touch.h"
+	"begin_code.h"
+	"close_code.h"
+
+1686711960 c:\jeux\projets\sdl2\include\sdl2\sdl_video.h
+	"SDL_stdinc.h"
+	"SDL_pixels.h"
+	"SDL_rect.h"
+	"SDL_surface.h"
+	"begin_code.h"
+	"close_code.h"
+
+1686711960 c:\jeux\projets\sdl2\include\sdl2\sdl_pixels.h
+	"SDL_stdinc.h"
+	"SDL_endian.h"
+	"begin_code.h"
+	"close_code.h"
+
+1686711960 c:\jeux\projets\sdl2\include\sdl2\sdl_rect.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_pixels.h"
+	"SDL_rwops.h"
+	"begin_code.h"
+	"close_code.h"
+
+1686711960 c:\jeux\projets\sdl2\include\sdl2\sdl_surface.h
+	"SDL_stdinc.h"
+	"SDL_pixels.h"
+	"SDL_rect.h"
+	"SDL_blendmode.h"
+	"SDL_rwops.h"
+	"begin_code.h"
+	"close_code.h"
+
+1686711960 c:\jeux\projets\sdl2\include\sdl2\sdl_blendmode.h
+	"begin_code.h"
+	"close_code.h"
+
+1686711960 c:\jeux\projets\sdl2\include\sdl2\sdl_keyboard.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_keycode.h"
+	"SDL_video.h"
+	"begin_code.h"
+	"close_code.h"
+
+1686711960 c:\jeux\projets\sdl2\include\sdl2\sdl_keycode.h
+	"SDL_stdinc.h"
+	"SDL_scancode.h"
+
+1686711960 c:\jeux\projets\sdl2\include\sdl2\sdl_scancode.h
+	"SDL_stdinc.h"
+
+1686711960 c:\jeux\projets\sdl2\include\sdl2\sdl_mouse.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_video.h"
+	"begin_code.h"
+	"close_code.h"
+
+1686711960 c:\jeux\projets\sdl2\include\sdl2\sdl_joystick.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_guid.h"
+	"SDL_mutex.h"
+	"begin_code.h"
+	"close_code.h"
+
+1686711960 c:\jeux\projets\sdl2\include\sdl2\sdl_guid.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1686711960 c:\jeux\projets\sdl2\include\sdl2\sdl_gamecontroller.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_rwops.h"
+	"SDL_sensor.h"
+	"SDL_joystick.h"
+	"begin_code.h"
+	"close_code.h"
+
+1686711960 c:\jeux\projets\sdl2\include\sdl2\sdl_sensor.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1686711960 c:\jeux\projets\sdl2\include\sdl2\sdl_quit.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+
+1686711960 c:\jeux\projets\sdl2\include\sdl2\sdl_gesture.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_video.h"
+	"SDL_touch.h"
+	"begin_code.h"
+	"close_code.h"
+
+1686711960 c:\jeux\projets\sdl2\include\sdl2\sdl_touch.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_video.h"
+	"begin_code.h"
+	"close_code.h"
+
+1686711960 c:\jeux\projets\sdl2\include\sdl2\sdl_filesystem.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1686711960 c:\jeux\projets\sdl2\include\sdl2\sdl_haptic.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_joystick.h"
+	"begin_code.h"
+	"close_code.h"
+
+1686711960 c:\jeux\projets\sdl2\include\sdl2\sdl_hidapi.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1686711960 c:\jeux\projets\sdl2\include\sdl2\sdl_hints.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1686711960 c:\jeux\projets\sdl2\include\sdl2\sdl_loadso.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1686711960 c:\jeux\projets\sdl2\include\sdl2\sdl_log.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1686711960 c:\jeux\projets\sdl2\include\sdl2\sdl_messagebox.h
+	"SDL_stdinc.h"
+	"SDL_video.h"
+	"begin_code.h"
+	"close_code.h"
+
+1686711960 c:\jeux\projets\sdl2\include\sdl2\sdl_metal.h
+	"SDL_video.h"
+	"begin_code.h"
+	"close_code.h"
+
+1686711960 c:\jeux\projets\sdl2\include\sdl2\sdl_power.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1686711960 c:\jeux\projets\sdl2\include\sdl2\sdl_render.h
+	"SDL_stdinc.h"
+	"SDL_rect.h"
+	"SDL_video.h"
+	"begin_code.h"
+	"close_code.h"
+
+1686711960 c:\jeux\projets\sdl2\include\sdl2\sdl_shape.h
+	"SDL_stdinc.h"
+	"SDL_pixels.h"
+	"SDL_rect.h"
+	"SDL_surface.h"
+	"SDL_video.h"
+	"begin_code.h"
+	"close_code.h"
+
+1686711960 c:\jeux\projets\sdl2\include\sdl2\sdl_system.h
+	"SDL_stdinc.h"
+	"SDL_keyboard.h"
+	"SDL_render.h"
+	"SDL_video.h"
+	"begin_code.h"
+	"close_code.h"
+
+1686711960 c:\jeux\projets\sdl2\include\sdl2\sdl_timer.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1686711960 c:\jeux\projets\sdl2\include\sdl2\sdl_version.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1686711960 c:\jeux\projets\sdl2\include\sdl2\sdl_locale.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1686711960 c:\jeux\projets\sdl2\include\sdl2\sdl_misc.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1687873670 c:\jeux\projets\sdl2\include\sdl2\sdl_image.h
+	"SDL.h"
+	"SDL_version.h"
+	"begin_code.h"
+	"close_code.h"
+
+1693253762 c:\jeux\projets\first2drpg\joueur.h
+	<string>
+	<SDL.h>
+	"Personnage.h"
+	"Profile.h"
+	"Inventaire.h"
+	"Objet.h"
+	"chainList.h"
+
+1693254604 source:c:\jeux\projets\first2drpg\joueur.cpp
+	"Joueur.h"
+	"Graphisme.h"
+	"Profile.h"
+
+1688053031 source:c:\jeux\projets\first2drpg\gobelin.cpp
+	"Gobelin.h"
+
+1688053048 c:\jeux\projets\first2drpg\gobelin.h
+	<string>
+	<SDL2/SDL.h>
+
+1711447712 c:\jeux\projets\first2drpg\graphisme.h
+	<stdio.h>
+	<SDL_image.h>
+	<SDL_ttf.h>
+	<SDL_mixer.h>
+	<string>
+	<SDL_gamecontroller.h>
+	<SDL.h>
+	<array>
+	"Texture.h"
+	"Window.h"
+
+1711383277 source:c:\jeux\projets\first2drpg\graphisme.cpp
+	"graphisme.h"
+
+1714127980 source:c:\jeux\projets\first2drpg\profile.cpp
+	"Profile.h"
+
+1714127861 c:\jeux\projets\first2drpg\profile.h
+	<string>
+	<SDL.h>
+	"Texture.h"
+	"chainList.cpp"
+	"Magie.h"
+	"Technique.h"
+
+1688999116 source:c:\jeux\projets\first2drpg\graphicelement.cpp
+	"GraphicElement.h"
+
+1691572784 c:\jeux\projets\first2drpg\graphicelement.h
+	<string>
+	<SDL.h>
+	"Graphisme.h"
+
+1691922986 source:c:\jeux\projets\first2drpg\chainlist.cpp
+	"chainList.h"
+
+1691922996 c:\jeux\projets\first2drpg\chainlist.h
+	<iostream>
+	<cassert>
+
+1691922986 c:\jeux\projets\first2drpg\chainlist.cpp
+	"chainList.h"
+
+1688993762 c:\jeux\projets\first2drpg\graphicelementliste.h
+	<iostream>
+	"GraphicElement.h"
+	<string>
+	<cassert>
+
+1689002105 c:\jeux\projets\first2drpg\gliste.h
+	<iostream>
+	<cassert>
+	"GraphicElement.h"
+
+1689002083 source:c:\jeux\projets\first2drpg\gliste.cpp
+	"gListe.h"
+
+1714035715 c:\jeux\projets\first2drpg\jeu.h
+	<stdio.h>
+	<SDL.h>
+	<iostream>
+	<string>
+	<math.h>
+	<cstdlib>
+	<SDL_ttf.h>
+	"chainlist.cpp"
+	"Profile.h"
+	"Timer.h"
+	"Joueur.h"
+	"Projectile.h"
+	"Technique.h"
+
+1714075141 source:c:\jeux\projets\first2drpg\jeu.cpp
+	"jeu.h"
+
+1689089105 c:\jeux\projets\first2drpg\jeu.cpp
+	<type_traits>
+	"jeu.h"
+	"GraphicElement.h"
+
+1689089366 source:c:\jeux\projets\first2drpg\jeutemplates.cpp
+	<type_traits>
+	"jeu.h"
+	"GraphicElement.h"
+
+1689089366 c:\jeux\projets\first2drpg\jeutemplates.cpp
+	<type_traits>
+	"jeu.h"
+	"GraphicElement.h"
+
+1689253708 c:\jeux\projets\first2drpg\inventaire.h
+	"Objet.h"
+
+1689251336 c:\jeux\projets\first2drpg\objet.h
+	"Profile.h"
+
+1689251692 source:c:\jeux\projets\first2drpg\objet.cpp
+	"Objet.h"
+
+1689256668 source:c:\jeux\projets\first2drpg\inventaire.cpp
+	<iostream>
+	"Inventaire.h"
+
+1711618647 source:c:\jeux\projets\first2drpg\texture.cpp
+	"Texture.h"
+
+1711618512 c:\jeux\projets\first2drpg\texture.h
+	<stdio.h>
+	<SDL.h>
+	<SDL_image.h>
+	<string>
+	<iostream>
+	<math.h>
+	"graphisme.h"
+
+1689449818 source:c:\jeux\projets\first2drpg\timer.cpp
+	"Timer.h"
+
+1690283420 c:\jeux\projets\first2drpg\timer.h
+	<stdint.h>
+	<SDL.h>
+
+1675736114 c:\jeux\projets\sdl2\include\sdl2\sdl_ttf.h
+	"SDL.h"
+	"begin_code.h"
+	"close_code.h"
+
+1675735050 c:\jeux\projets\sdl2\include\sdl2\sdl_mixer.h
+	"SDL_stdinc.h"
+	"SDL_rwops.h"
+	"SDL_audio.h"
+	"SDL_endian.h"
+	"SDL_version.h"
+	"begin_code.h"
+	"close_code.h"
+
+1690457390 c:\jeux\projets\first2drpg\window.h
+	<iostream>
+	<SDL.h>
+	<stdio.h>
+	<string>
+	<sstream>
+
+1690463450 source:c:\jeux\projets\first2drpg\window.cpp
+	"Window.h"
+
+1691396780 c:\jeux\projets\first2drpg\personnage.h
+	"Texture.h"
+
+1691335362 source:c:\jeux\projets\first2drpg\background.cpp
+	"Background.h"
+
+1691335254 c:\jeux\projets\first2drpg\background.h
+	<cstdlib>
+	"Texture.h"
+
+1691437602 source:c:\jeux\projets\first2drpg\personnage.cpp
+	"Personnage.h"
+
+1693254354 source:c:\jeux\projets\first2drpg\pnj.cpp
+	"PNJ.h"
+
+1693253784 c:\jeux\projets\first2drpg\pnj.h
+	"Profile.h"
+	"Personnage.h"
+	"chainList.h"
+	"jeu.h"
+	"Joueur.h"
+
+1691494092 source:c:\jeux\projets\first2drpg\camera.cpp
+	"Camera.h"
+
+1691494082 c:\jeux\projets\first2drpg\camera.h
+	<SDL.h>
+
+1711462123 c:\jeux\projets\first2drpg\menu.h
+	<SDL.h>
+	"Profile.h"
+	"jeu.h"
+	"chainList.h"
+	"Texture.h"
+
+1711462108 source:c:\jeux\projets\first2drpg\menu.cpp
+	"Menu.h"
+
+1691787778 c:\jeux\projets\first2drpg\projectile.h
+	<SDL.h>
+	"Profile.h"
+
+1692027048 source:c:\jeux\projets\first2drpg\projectile.cpp
+	"Projectile.h"
+
+1711628407 source:c:\jeux\projets\first2drpg\magie.cpp
+	"Magie.h"
+
+1711628370 c:\jeux\projets\first2drpg\magie.h
+	<SDL.h>
+	<string>
+	"Texture.h"
+	"Action.h"
+
+1711615724 c:\jeux\projets\first2drpg\technique.h
+
+1712139301 c:\jeux\projets\first2drpg\action.h
+
+1714074031 source:c:\jeux\projets\first2drpg\niveau.cpp
+	"Niveau.h"
+
+1711451582 c:\jeux\projets\first2drpg\niveau.h
+	"PNJ.h"
+	"jeu.h"
+	"Background.h"
+	"Camera.h"
+

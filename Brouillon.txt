@@ -1,0 +1,10 @@
+switch(currentProfile->fleau){
+                        case BRULURE:
+                            currentProfile->updateStats(Substract, PV, currentProfile->getPvMax()/50);
+                            currentProfile->fleauDuree--;
+                            dc->degats = currentProfile->getPvMax()/50;
+                            dc->afficherDegats = true;
+                            dc->degatsRect.x = currentProfile->getColliderX() + dc->decallageDegats;
+                            dc->degatsRect.y = currentProfile->getColliderY();
+                            break;
+                        }
